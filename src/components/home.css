@@ -1,0 +1,147 @@
+/* 
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-container {
+  height: 90vh;
+  padding: 20px;
+}
+
+.home-text {
+  text-align: center; 
+  font-size: large;
+  font-weight: bold;
+  
+}
+
+.cursive {
+  font-family: 'Pacifico', cursive;
+}
+
+.home-image {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.home-image img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  max-height: 100%; 
+
+  border-radius: 50%;
+}
+
+@keyframes floatUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);    }
+  }
+  
+  .float-animation {
+    animation: floatUpDown 3s ease-in-out infinite;
+    object-fit:fill;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .cursive {
+    font-family: 'Pacifico', cursive;
+  }
+  
+  .text1{
+    font-size: 4rem;
+  }
+  .text2{
+    font-size: 3rem;
+    font-family:"Pacifico",sans-serif;
+  }
+
+  .text3{
+    font-size: 2rem;
+  }
+
+  @keyframes floatUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);    }
+  }
+  
+  .float-animation {
+    animation: floatUpDown 3s ease-in-out infinite;
+    object-fit:fill;
+  }  */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .cursive {
+    font-family: 'Pacifico', cursive;
+  }
+  
+  .text1 {
+    font-size: 4rem;
+  }
+  
+  .text2 {
+    font-size: 3rem;
+    font-family: 'Pacifico', sans-serif;
+  }
+  
+  .text3 {
+    font-size: 2rem;
+  }
+  
+  .float-animation {
+    animation: floatUpDown 3s ease-in-out infinite;
+    object-fit: fill;
+  }
+  
+  @keyframes floatUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Ensure the container does not cause overflow */
+  .container-fluid {
+    padding: 0 15px;
+  }
+  
+  /* Add responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .text1 {
+      font-size: 2.5rem;
+    }
+    .text2 {
+      font-size: 2rem;
+    }
+    .text3 {
+      font-size: 1.5rem;
+    }
+    .btn-lg {
+      font-size: 1rem;
+    }
+  }
+  

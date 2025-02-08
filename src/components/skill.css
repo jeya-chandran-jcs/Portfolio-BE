@@ -1,0 +1,33 @@
+.skills-container {
+    padding: 20px;
+  }
+  
+  .skill-item {
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .skill-item .progress {
+    height: 20px;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  @keyframes floatUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);    }
+  }
+  
+  .float-animation {
+    animation: floatUpDown 3s ease-in-out infinite;
+    object-fit:fill;
+  } 
